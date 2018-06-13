@@ -1,8 +1,5 @@
 from time import sleep as delay
 while True:
-    input("Press Enter To Get A Coin")
-    print("You Got A Coin!")
-    print("Wait 5 Seconds")
-    delay(5)
+    if input("Type c and press enter") == "c":
+        print("You Got A Coin!")
     print("Keep Going!")
-    
