@@ -1,5 +1,11 @@
 from time import sleep as delay
+from sys import exit as quit
 coins = 0
+print("Welcome To Coin Clicker 2")
+print("Type play To Play")
+menuchoice = input("Your Choice: ")
+if not menuchoice.lower() == "play":
+    quit(0)
 while True:
     if not(input("Press any key and press enter: ") == ""):
         coins += 1
