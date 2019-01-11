@@ -5,7 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>Coin Clicker 2</title>
+
+    <meta name="theme-color" content="#FFEB3B">
+
+    <link rel="shortcut icon" href="favicon.ico">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
     <link rel="stylesheet" href="https://unpkg.com/material-components-web@0.43.0/dist/material-components-web.min.css">
@@ -45,7 +50,8 @@
         }
 
         p,
-        button, .title-box--text {
+        button,
+        .title-box--text {
             color: white;
         }
 
@@ -92,7 +98,7 @@
         }
 
         .info-dialog .mdc-typography--headline6 {
-                margin: 0;
+            margin: 0;
         }
     </style>
 
@@ -118,7 +124,8 @@
         </button>
         <button class="menu--item info-button">
             <svg class="menu--item-svg" viewBox="0 0 24 24">
-                <path fill="none" d="M0 0h24v24H0V0z"/><path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                <path fill="none" d="M0 0h24v24H0V0z" />
+                <path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
             </svg>
         </button>
     </div>
@@ -155,34 +162,28 @@
         </div>
         <div class="mdc-dialog__scrim"></div>
     </div>
-    <div class="mdc-dialog info-dialog"
-     role="alertdialog"
-     aria-modal="true"
-     aria-labelledby="my-dialog-title"
-     aria-describedby="my-dialog-content">
-  <div class="mdc-dialog__container">
-    <div class="mdc-dialog__surface">
-      <h2 class="mdc-dialog__title" id="my-dialog-title">Information</h2>
-      <div class="mdc-dialog__content" id="my-dialog-content">
-        <h6 class="mdc-typography--headline6">How to play</h6>
-        Click the money button to get money. You can then put the money in the bank. When the progress bar in the bank fills up, you get 1-5% intrest. To deposit money into the bank, simply use the despoit button. Similarly, to withdraw money, use the withdraw button.
-        <br><br>
-        <h6 class="mdc-typography--headline6">Credits</h6>
-        Developed by <a href="https://richienb.github.io" target="_blank" rel="noreferrer">Richie Bendall</a>.
-        <br>
-        Tested by <a href="https://garygary1275.github.io" target="_blank" rel="noreferrer">Gary Bendall</a>.
-        <br>
-        Licensed under the <a href="https://github.com/garygary1275/coin-clicker-2/blob/master/LICENSE" target="_blank" rel="noreferrer">MIT License</a>.
-      </div>
-      <footer class="mdc-dialog__actions">
-        <button type="button" class="mdc-button mdc-dialog__button" data-mdc-dialog-action="close">
-          <span class="mdc-button__label">Close</span>
-        </button>
-      </footer>
+    <div class="mdc-dialog info-dialog" role="alertdialog" aria-modal="true" aria-labelledby="my-dialog-title" aria-describedby="my-dialog-content">
+        <div class="mdc-dialog__container">
+            <div class="mdc-dialog__surface">
+                <h2 class="mdc-dialog__title" id="my-dialog-title">Information</h2>
+                <div class="mdc-dialog__content" id="my-dialog-content">
+                    <h6 class="mdc-typography--headline6">How to play</h6> Click the money button to get money. You can then put the money in the bank. When the progress bar in the bank fills up, you get 1-5% intrest. To deposit money into the bank, simply use the despoit button. Similarly, to withdraw money, use the withdraw button.
+                    <br>
+                    <br>
+                    <h6 class="mdc-typography--headline6">Credits</h6> Developed by <a href="https://richienb.github.io" target="_blank" rel="noreferrer">Richie Bendall</a>.
+                    <br> Tested by <a href="https://garygary1275.github.io" target="_blank" rel="noreferrer">Gary Bendall</a>.
+                    <br> Licensed under the <a href="https://github.com/garygary1275/coin-clicker-2/blob/master/LICENSE" target="_blank" rel="noreferrer">MIT License</a>.
+                </div>
+                <footer class="mdc-dialog__actions">
+                    <button type="button" class="mdc-button mdc-dialog__button" data-mdc-dialog-action="close">
+                        <span class="mdc-button__label">Close</span>
+                    </button>
+                </footer>
+            </div>
+        </div>
+        <div class="mdc-dialog__scrim"></div>
     </div>
-  </div>
-  <div class="mdc-dialog__scrim"></div>
-</div>
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/material-components-web@0.43.0/dist/material-components-web.min.js"></script>
     <script>
